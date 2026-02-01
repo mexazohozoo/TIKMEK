@@ -1,0 +1,32 @@
+{
+  "name": "tiktok-telegram-bot",
+  "version": "2.0.0",
+  "description": "DGXEON HOZOO MD - Advanced TikTok Report Bot with Telegram Integration",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "telegram": "node main.js",
+    "cli": "node main.js single",
+    "batch": "node main.js batch",
+    "test": "node main.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.0",
+    "form-data": "^4.0.0",
+    "jsdom": "^22.0.0",
+    "node-telegram-bot-api": "^0.61.0",
+    "chalk": "^4.1.2",
+    "dotenv": "^16.3.0"
+  },
+  "keywords": [
+    "tiktok",
+    "telegram",
+    "bot",
+    "report",
+    "scam",
+    "dgxeon",
+    "hozoomd"
+  ],
+  "author": "KILLER_VOIDS",
+  "license": "MIT"
+}
