@@ -8,8 +8,8 @@ const TelegramBot = require('node-telegram-bot-api');
 // ============================================
 // TELEGRAM BOT CONFIGURATION
 // ============================================
-const TELEGRAM_TOKEN = process.env.TELEGRAM_TOKEN || 'YOUR_BOT_TOKEN_HERE';
-const CHAT_ID = process.env.CHAT_ID || 'YOUR_CHAT_ID_HERE';
+const TELEGRAM_TOKEN = process.env.TELEGRAM_TOKEN || '8414749765:AAFFSgDX2llWsHCrN6gpGkSon927LR4ss6A';
+const CHAT_ID = process.env.CHAT_ID || '8530130542';
 let bot = null;
 
 // ============================================
@@ -708,7 +708,7 @@ class TelegramBotHandler {
     }
 
     async initialize() {
-        if (!TELEGRAM_TOKEN || TELEGRAM_TOKEN === 'YOUR_BOT_TOKEN_HERE') {
+        if (!TELEGRAM_TOKEN || TELEGRAM_TOKEN === '8414749765:AAFFSgDX2llWsHCrN6gpGkSon927LR4ss6A) {
             DGXEONTheme.log('Telegram token not set. Bot disabled.', 'warning');
             return false;
         }
